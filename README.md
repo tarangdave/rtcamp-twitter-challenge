@@ -13,13 +13,25 @@ Live Demo : http://rt-camp.herokuapp.com/
 ## Creating your app
 Create your own app on https://apps.twitter.com/
 
-Now replace the acces consumer key and secret from you app to the following **config.php** file:
+Now replace the consumer key and secret from you app to the following **config.php** file:
 
 ```
 define('CONSUMER_KEY', 'Your Consumer Key');
 define('CONSUMER_SECRET', 'Your Consumer Secret');
 define('OAUTH_CALLBACK', 'Your callback url');
 ``` 
+
+## PHPunit test
+Create a **composer.json** file in your project directory and edit as follows:
+```
+{
+	"require" : {
+		"phpunit/phpunit": "^4.8"
+	}
+}
+
+```
+ Now from commandline run **composer require phpunit/phpunit** and let it install phpunit and its dependencies.
 
 ### Third party libraries
 1. Twitter API
