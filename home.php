@@ -119,7 +119,7 @@ $friend_list = $twitteroauth -> get("https://api.twitter.com/1.1/followers/list.
 				
 				<div class="tweet-thread" style="height: 475px; width:100%; overflow-y:scroll; margin-bottom: 10px;">
 					<div id="loading-overlay">
-                         <img width="50%" src="images/loading.gif" alt='loading'>
+                         <img width="20%" src="images/loading.gif" alt='loading'>
                     </div><!--//#loading-overlay-->
 					<div class="large-12 columns" id="tweets">
 						<script id="tweet-template" type="text/x-handlebars-template">
