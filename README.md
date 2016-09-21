@@ -2,18 +2,24 @@
 
 Live Demo : http://rt-camp.herokuapp.com/
 
+---
 + Login using your twitter account
 + Pulls tweets from your feed
 + Search for friends and their tweets
-+ Download Tweets in CSV/XLS format
-
-
++ Download option for CSV and XLS file formats
 ---
 
-+ PHP
-+ ajax calls to show tweets
+## Creating your app
+Create your own app on https://apps.twitter.com/
 
----
+Now replace the acces consumer key and secret from you app to the following **config.php** file:
+
+```
+define('CONSUMER_KEY', 'Your Consumer Key');
+define('CONSUMER_SECRET', 'Your Consumer Secret');
+define('OAUTH_CALLBACK', 'Your callback url');
+``` 
+
 ### Third party libraries
 1. Twitter API
 -https://dev.twitter.com/overview/documentation
