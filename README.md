@@ -1,8 +1,8 @@
 # rtCamp Twitter Assignment
-Login using your twitter account
-Pulls tweets from your feed
-Search for friends and their tweets
-Download Tweets in CSV/XLS format
++Login using your twitter account
++Pulls tweets from your feed
++Search for friends and their tweets
++Download Tweets in CSV/XLS format
 
 ---
 
@@ -10,3 +10,7 @@ Download Tweets in CSV/XLS format
 + ajax calls to show tweets
 
 ---
+
+```
+Live Demo : http://rt-camp.herokuapp.com/
+```
