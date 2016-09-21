@@ -35,3 +35,7 @@ define('OAUTH_CALLBACK', 'Your callback url');
 6. PHPExcel
 -https://phpexcel.codeplex.com/
 
+## Author
+
+**Tarang Dave**
+###[Github Profile](https://github.com/tarangdave)
